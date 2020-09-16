@@ -1,13 +1,32 @@
+#pacman
 blender
-slack-flatpack
+flatpak
+discord
+kdenlive
+alacarte
+signal-desktop
+tor
+wireshark-qt
+
+#aur
+slack-desktop
 zoom
 bitwarden
+drawio-desktop
+minecraft-launcher
+onlyoffice-bin
+spotify
+timeshift
+visual-studio-code-bin
+protonmail-bridge
+protonmail-desktop
+drave-bin
+
+#gnome
 cheese
 gnome calendar
-discord
 gnome disk usage analyzer
 gnome doc scanner
-draw.io
 eye of gnome
 file roller-gnome archive manager
 nautilus
@@ -18,27 +37,6 @@ gnome fonts
 gnome screenshot
 gnome system monitor
 gnome tweaks
-gimp
-htop
-kdenlive-flatpack
-lutris
-alacarte
-minecraft
-onlyoffice desktop editors
-signal desktop-flatpack
-spotify-flatpack
-steam
 gnome terminal
-timeshift
-tor browser
 gnome videos
-vim
-virtualbox
-visual studio code-flatpack
 gnome weather
-wine
-wireshark
-protonmail bridge
-wonderdraft
-protonmail-desktop-unofficial-snap
-brave browser
