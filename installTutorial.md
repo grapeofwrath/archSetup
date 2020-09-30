@@ -6,7 +6,10 @@ Update pacman mirrors
 ```bash
 # reflector --latest 5 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
-
+Install desired editor (nano)
+```bash
+# pacman -S nano
+```
 Update system clock
 ```bash
 # timedatectl set-ntp true
