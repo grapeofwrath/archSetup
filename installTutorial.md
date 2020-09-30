@@ -30,12 +30,12 @@ Add boot partition
 :1
 :1
 ```
-Add swap partition
+Add swap partition, swap size is typically half of RAM
 ```bash
 :n
 :2
 :default
-:+16G(swap size)
+:+16G (swap size)
 :t
 :2
 :19
