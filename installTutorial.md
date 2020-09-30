@@ -1,4 +1,4 @@
-# Arch Install Tutorial
+# Arch Install Tutorial (UEFI)
 
 ### Base Install
 
