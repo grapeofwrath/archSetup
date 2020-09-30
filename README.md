@@ -1,7 +1,5 @@
 # archSetup
 
-Download and run archfi
-```bash
-curl -L matmoul.github.io/archfi > archfi
-sh archfi
-```
+[Install Tutorial](https://github.com/grapeofwrath/archSetup/blob/master/installTutorial.md)
+
+Install Script
