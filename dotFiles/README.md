@@ -6,5 +6,5 @@ $ dconf dump /org/gnome/terminal/legacy/profiles:/ > profile.dconf
 ```
 Import
 ```bash
-dconf load /org/gnome/terminal/legacy/profiles:/ < profile.dconf
+$ dconf load /org/gnome/terminal/legacy/profiles:/ < profile.dconf
 ```
