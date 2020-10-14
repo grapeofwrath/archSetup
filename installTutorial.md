@@ -2,8 +2,9 @@
 
 ### Base Install
 
-Update pacman mirrors
+Install reflector and update pacman mirrors
 ```bash
+pacman -Sy reflector
 reflector --latest 5 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 Install desired editor (nano)
