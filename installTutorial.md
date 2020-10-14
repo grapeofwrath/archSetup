@@ -61,7 +61,7 @@ mkfs.ext4 /dev/<root partition>
 ```
 Mount root partition
 ```bash
-mount /dev/sda3 /mnt
+mount /dev/<root partition> /mnt
 ```
 Base install
 ```bash
@@ -100,14 +100,14 @@ nano /etc/hosts
 --------------------------------------------
 127.0.0.1   localhost
 ::1         localhost
-IPADDRESS   hostname.localdomain  hostname
+IPADDRESS   <hostname>.localdomain  <hostname>
 ```
 Set root password & create user
 ```bash
 passwd
-useradd -m username
-passwd username
-usermod -aG wheel username
+useradd -m <username>
+passwd <username>
+usermod -aG wheel <username>
 ```
 Uncomment `wheel` group, `CTRL+O` to write and `CTRL+X` to exit
 ```bash
@@ -158,7 +158,7 @@ Include = /etc/pacman.d/mirrorlist
 Upgrade and install drivers & utils `AMD`
 ```bash
 sudo pacman -Syu
-sudo pacman -S xorg xf86_64-video-amdgpu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+sudo pacman -S xorg xf86-video-amdgpu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
 ```
 Upgrade and install drivers & utils `NVIDIA`
 ```bash
