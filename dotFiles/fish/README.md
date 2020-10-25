@@ -6,6 +6,8 @@ sudo pacman -S fish
 Set as default shell
 ```
 chsh -s /usr/bin/fish
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+set -U fish_user_paths /usr/local/bin $fish_user_paths
 ```
 
 Restart terminal
