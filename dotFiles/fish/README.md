@@ -20,3 +20,5 @@ Add thefuck and reset shell
 echo "thefuck --alias | source" > ~/.config/fish/config.fish
 fish
 ```
+
+Use `fish_config` to access web interactive config
