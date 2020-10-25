@@ -1,21 +1,21 @@
-install
+Install fish
 ```bash
 sudo pacman -S fish
 ```
 
-set as default shell
+Set as default shell
 ```
 chsh -s /usr/bin/fish
 ```
 
-restart terminal
+Restart terminal
 
-remove default greeting
+Remove default greeting
 ```fish
 set -U fish_greeting
 ```
 
-add thefuck and reset shell
+Add thefuck and reset shell
 ```fish
 echo "thefuck --alias | source" > ~/.config/fish/config.fish
 fish
