@@ -19,6 +19,7 @@ set -U fish_greeting
 
 Add thefuck and reset shell
 ```fish
+mkdir ~/.config/fish
 echo "thefuck --alias | source" > ~/.config/fish/config.fish
 fish
 ```
